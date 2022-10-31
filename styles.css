@@ -1,0 +1,128 @@
+
+
+.header{
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+  z-index: 1
+}
+
+#animation{
+  position: absolute;
+  left: 17%;
+  right: 8%;
+  top:21.5%;
+  font-size: 80%;
+  font-family:"Microsoft Yahei";
+}
+
+#timer{
+  position: absolute;
+  top:37.5%;
+  left: 20%;
+  font-size: 125%;
+  font-weight: bold;
+  color: #1c6cdf;
+
+}
+
+strong{
+  font-size: 110%;
+  color: #4258e9;
+}
+
+#date{
+  position: absolute;
+  top:38%;
+  right: 22%;
+  font-size: 120%;
+  color: #1c6cdf;
+  font-weight: bold;
+}
+
+#name{
+  position: absolute;
+  top:27%;
+  left: 11%;
+  font-weight: bold;
+  color: #1e1f24;
+  font-size: 115%;
+}
+
+
+
+#id{
+  position: absolute;
+  font-size: 80%;
+  left: 11%;
+  top:31.25%;
+  color: #919ea7;
+}
+
+p{
+  font-family:"Microsoft Yahei";
+}
+
+#travel{
+  position: absolute;
+  bottom:8.5%;
+  left: 52%;
+  font-size: 56%;
+  color: #f8f8f8e8;
+}
+
+#pcr{
+  position: absolute;
+  bottom:8.5%;
+  left: 11.5%;
+  font-size: 56%;
+  color: #f8f8f8e8;
+}
+
+#scroll{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom:16%;
+}
+
+.container{
+  position: relative;
+  display: flex;
+
+}
+
+.bottom{
+  display: flex;
+}
+
+.marquee{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom:15%;
+  overflow: hidden;
+}
+
+.marquee_content li{
+
+  list-style: none;
+  display: flex;
+  animation: scorlling 15s linear infinite;
+}
+
+@keyframes scorlling {
+  0%{transform: translate(-10vw);}
+  100%{transform: translateX(-180vw);}
+}
+
+.marquee_content{
+  display: flex;
+}
+
+
+
